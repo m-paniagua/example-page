@@ -257,7 +257,7 @@ h3 {
 
 #contact li {
     display: inline-block;
-    padding: 25px;
+    padding: 15px;
     font-weight: bold;
 }
 
@@ -390,7 +390,8 @@ gallery
 
 #slide2 .col-text {
     /* background: #ffffba; */
-    background: linear-gradient(rgba(255, 255, 186, .4), rgba(255, 255, 186, .3)), url(../img/vintage_speckles.png);
+    /* Background pattern from Subtle Patterns */
+    background: linear-gradient(rgba(255, 255, 186, .4), rgba(255, 255, 186, .3)), url(../img/memphis.png);
     min-height: 100vh;
     /* margin-left: 5px; */
 }
@@ -403,7 +404,7 @@ gallery
 
 #slide3 .col-text {
     /* background: #bae1ff; */
-    background: linear-gradient(rgba(186, 225, 255, .4), rgba(186, 225, 255, .3)), url(../img/vintage_speckles.png);
+    background: linear-gradient(rgba(186, 225, 255, .4), rgba(186, 225, 255, .3)), url(../img/memphis.png);
     min-height: 100vh;
 }
 
@@ -416,7 +417,7 @@ gallery
 #slide4 .col-text {
     /* background: #FAEEC8; */
     /* background: #cec1e7; */
-    background: linear-gradient(rgba(206, 193, 231, .4), rgba(206, 193, 231, .3)), url(../img/vintage_speckles.png);
+    background: linear-gradient(rgba(206, 193, 231, .4), rgba(206, 193, 231, .3)), url(../img/memphis.png);
     min-height: 100vh;
     /* color: rgb(51, 51, 51); */
 }
@@ -509,10 +510,10 @@ gallery
         background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2)), url(../img/3.jpg) no-repeat center center;
         background-size: cover;
     }
-    .fp-controlArrow.fp-next {
+    /* .fp-controlArrow.fp-next {
         display: none;
     }
     .fp-controlArrow.fp-prev {
         display: none;
-    }
+    } */
 }
