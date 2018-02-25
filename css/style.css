@@ -66,6 +66,31 @@ h3 {
     color: #f1f1f1;
 }
 
+#mySidenav>a.active:nth-child(2) {
+    background-color: rgb(51, 51, 51);
+    color: #ffffba;
+}
+
+#mySidenav>a.active:nth-child(3) {
+    background-color: rgb(51, 51, 51);
+    color: #baffc9;
+}
+
+#mySidenav>a.active:nth-child(4) {
+    background-color: rgb(51, 51, 51);
+    color: #ffdfba;
+}
+
+#mySidenav>a.active:nth-child(5) {
+    background-color: rgb(51, 51, 51);
+    color: rgb(206, 193, 231);
+}
+
+#mySidenav>a.active:nth-child(6) {
+    background-color: rgb(51, 51, 51);
+    color: #bae1ff;
+}
+
 /* Position and style the close button (top right corner) */
 
 .sidenav #closebtn {

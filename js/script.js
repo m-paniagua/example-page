@@ -10,6 +10,8 @@ $(document).ready(function () {
         autoScrolling: true,
         fitToSection: true,
         fitToSectionDelay: 2000,
+        anchors: ['go-home', 'go-about', 'go-projects', 'go-gallery', 'go-contact'],
+        menu: '#mySidenav'
         // responsiveWidth: 992,
     });
 
