@@ -406,19 +406,19 @@ gallery
     background-size: cover;
 }
 
-#slide2, #slide3, #slide4 {
+/* #slide2, #slide3, #slide4 {
     background-color: #ffd1dc;
-}
+} */
 
 .col-text {
     padding: 25px 10px;
 }
 
-#slide2 .col-text {
+#slide2 {
     /* background: #ffffba; */
     /* Background pattern from Subtle Patterns */
     background: linear-gradient(rgba(255, 255, 186, .4), rgba(255, 255, 186, .3)), url(../img/memphis.png);
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* margin-left: 5px; */
 }
 
@@ -428,10 +428,10 @@ gallery
     background-size: cover;
 }
 
-#slide3 .col-text {
+#slide3 {
     /* background: #bae1ff; */
     background: linear-gradient(rgba(186, 225, 255, .4), rgba(186, 225, 255, .3)), url(../img/memphis.png);
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 #slide3 .col-pic {
@@ -440,11 +440,11 @@ gallery
     background-size: cover;
 }
 
-#slide4 .col-text {
+#slide4 {
     /* background: #FAEEC8; */
     /* background: #cec1e7; */
     background: linear-gradient(rgba(206, 193, 231, .4), rgba(206, 193, 231, .3)), url(../img/memphis.png);
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* color: rgb(51, 51, 51); */
 }
 
@@ -459,9 +459,9 @@ gallery
 }
 
 @media screen and (min-width: 992px) {
-    .slide .col-text {
+    /* .slide .col-text {
         margin-left: 5px;
-    }
+    } */
     /*------------------------------------*\
     BORDERS
 \*------------------------------------*/
@@ -524,7 +524,7 @@ gallery
         background-color: transparent;
         /* background: linear-gradient(to bottom right, transparent, transparent); */
     }
-    #slide2 {
+    /* #slide2 {
         background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2)), url(../img/4.jpg) no-repeat center center;
         background-size: cover;
     }
@@ -535,7 +535,7 @@ gallery
     #slide3 {
         background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2)), url(../img/3.jpg) no-repeat center center;
         background-size: cover;
-    }
+    } */
     /* .fp-controlArrow.fp-next {
         display: none;
     }
