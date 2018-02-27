@@ -57,7 +57,9 @@ html.fp-enabled,
     -ms-user-select: none; /* IE10+ */
     position: absolute;
     z-index: 4;
-    top: 50%;
+    /* top: 50%; */
+    /* move arrows to bottom */
+    bottom: 15px;
     cursor: pointer;
     width: 0;
     height: 0;
@@ -74,7 +76,9 @@ html.fp-enabled,
     border-color: transparent #fff transparent transparent;
 }
 .fp-controlArrow.fp-next {
-    right: 15px;
+    /* right: 15px; */
+    /* position arrow left of screen */
+    left: 87px;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent #fff;
 }

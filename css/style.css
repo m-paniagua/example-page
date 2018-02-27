@@ -166,7 +166,7 @@ h3 {
 /* change arrow icons */
 
 .fp-controlArrow.fp-prev {
-    left: 20px;
+    /* left: 20px; */
     border: none;
     width: 50px;
     height: 101px;
@@ -175,7 +175,7 @@ h3 {
 }
 
 .fp-controlArrow.fp-next {
-    right: 20px;
+    /* right: 20px; */
     border: none;
     width: 50px;
     height: 101px;
