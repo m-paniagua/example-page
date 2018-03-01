@@ -70,15 +70,16 @@ html.fp-enabled,
     transform: translate3d(0,0,0);
 }
 .fp-controlArrow.fp-prev {
-    left: 15px;
+    /* left: 15px; */
+    right: 87px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
     border-color: transparent #fff transparent transparent;
 }
 .fp-controlArrow.fp-next {
     /* right: 15px; */
-    /* position arrow left of screen */
-    left: 87px;
+    /* position arrow right of screen */
+    right:  15px;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent #fff;
 }
@@ -117,8 +118,12 @@ html.fp-enabled,
     -webkit-transform: translate3d(0,0,0);
     -ms-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
-    left: 0 !important;
-    right: 0;
+    /*  */
+    /* move nav to right */
+    /*  */
+    /* left: 0 !important; */
+    /* right: 0; */
+    right: 20px;
     margin: 0 auto !important;
 }
 .fp-slidesNav.bottom {
