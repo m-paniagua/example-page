@@ -95,7 +95,7 @@ h3 {
 
 .sidenav #closebtn {
     position: absolute;
-    top: -15px;
+    top: 5px;
     right: 0;
     font-size: 36px;
     margin-left: 50px;
